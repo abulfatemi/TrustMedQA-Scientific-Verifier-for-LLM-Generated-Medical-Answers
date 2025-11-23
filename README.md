@@ -6,7 +6,7 @@ This project addresses the rising concern of **LLM hallucinations in high-stakes
 
 ---
 
-## 🛠️ Project Workflow
+##  Project Workflow
 
 - The user submits a **medical question** via the Streamlit interface.
 - The system uses **Google Gemini** to generate an answer and extract 2–4 supporting claims.
@@ -28,7 +28,7 @@ This project addresses the rising concern of **LLM hallucinations in high-stakes
 
 ---
 
-## 🧪 Sample Logic (Hallucination Verdict)
+##  Sample Logic (Hallucination Verdict)
 
 The verdict is determined based on:
 - Ratio of claims that are strongly entailed,
@@ -42,20 +42,20 @@ The verdict is determined based on:
 
 ---
 
-## 📷 Screenshots
+##  Screenshots
 
 ![UI](https://github.com/user-attachments/assets/42134288-c168-4176-bed8-ae1b3007e63b)
 
 
 ---
 
-## 📹 Demo Video
+##  Demo Video
 
 https://github.com/user-attachments/assets/ac2aa606-fa21-43f0-8a53-77ad91d3eea2
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 - **LLM**: Google Gemini 1.5 Flash (via LangChain)
 - **Retrieval**: FAISS + S-BioBERT embeddings (`pritamdeka/S-BioBert-snli-multinli-stsb`)
